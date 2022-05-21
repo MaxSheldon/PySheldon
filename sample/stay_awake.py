@@ -5,7 +5,7 @@ import random
 import signal
 import traceback
 
-import pyautogui
+#import pyautogui
 
 from log import Log, LogLevel
 

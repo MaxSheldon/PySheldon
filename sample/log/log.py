@@ -23,7 +23,7 @@ class Log:
                  log_level : LogLevel = logging.INFO
                  ):
         if log_format is None:
-            self.LOG_FORMAT = '%(asctime)s | %(levelname)s | %(funcName)s | %(message)s'
+            self.LOG_FORMAT = '[%(asctime)s] [%(levelname)s] [%(funcName)s] %(message)s'
         self.cria_file(file_name=file_name, file_path=file_path)
         self.PRINT_LOG = print_log
         self.LOG_LEVEL = log_level
